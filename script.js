@@ -1,16 +1,21 @@
-// var num = 23934;
-// var num2 = 2089850;
+// var Name = prompt('Enter your name');
+// var age = prompt('Enter your age');
 
-// var result = num - num2; //` 100 + 200
+// if (age > 18) {
+//   console.log('you are good to vote ' + Name);
+// } else {
+//   document.location.href = 'http://www.google.com';
+// }
 
-// var Name = prompt('Whats you Name?');
-// var age = prompt('Whats you age?');
+// for (var i = 0; i < 10; i++) {
+//   console.log(' Hello i am from loop');
+// }
 
+// var number = prompt('Enter the number for the table');
 
-// alert(093476);
-// var res = prompt();
+// for (var num = 0; num <= 10; num = num + 1) {
+//   console.log(num * number);
+// }
 
-
-const myVar = 100
-
-console.log(myVar);
+var Name = prompt('Enter the name');
+document.getElementById('title').innerHTML = 'Hello ' + Name;
